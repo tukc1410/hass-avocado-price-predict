@@ -194,7 +194,7 @@ elif choice=="Nội dung ứng dụng":
                 """)
             st.write("##### Trực quan hóa: Giá trung bình và Giá trung bình dự báo từ 04-2017 đến 03-2018 (51 tuần)")
                 # Visulaize the result
-            st.image('3-part2.png',width=600)   
+            st.image('3-Part2.png',width=600)   
 
         elif choice == 'Kết quả dự báo':
             st.subheader("2.3. Kết quả dự báo giá trung bình Bơ hữu cơ - California - Arima")
@@ -251,7 +251,7 @@ elif choice=="Nội dung ứng dụng":
                 """)
             st.write("##### Trực quan hóa: Giá trung bình và Giá trung bình dự báo từ 04-2017 đến 03-2018 (51 tuần)")
                 # Visulaize the result
-            st.image('1-part3.png',width=600) 
+            st.image('1-Part3.png',width=600) 
         elif choice == 'Kết quả dự báo':
             st.subheader("3.3. Kết quả dự báo giá trung bình Bơ thường - California - Holtwinters")
             st.write("#### Biểu đồ dự báo 52 tuần (1 năm) tới")
@@ -308,7 +308,7 @@ elif choice=="Nội dung ứng dụng":
                 """)
             st.write("##### Trực quan hóa: Giá trung bình và Giá trung bình dự báo từ 04-2017 đến 03-2018 (51 tuần)")
                 # Visulaize the result
-            st.image('1-part4.png',width=600)
+            st.image('1-Part4.png',width=600)
 
         elif choice == 'Kết quả dự báo':
             st.subheader("2.3. Kết quả dự báo giá trung bình Bơ hữu cơ - SanDiego - Arima")
