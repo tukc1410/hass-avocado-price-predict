@@ -3,11 +3,7 @@ echo "\
 [general]\n\
 email = \"youremail@domain\"\n\
 " > ~/.streamlit/credentials.toml
-echo "[theme]
-primaryColor="#4bff4b"
-backgroundColor="#789df3"
-secondaryBackgroundColor="#4b7ef5"
-textColor="#121616"
+echo "\
 [server]\n\
 headless = true\n\
 enableCORS=false\n\
