@@ -118,7 +118,7 @@ elif choice=="Nội dung ứng dụng":
     choice = st.sidebar.selectbox('Nội dung:', menu2)
     if choice=="Tổng quan bộ dữ liệu": 
         st.header("Phần 1. Tổng quan về bộ dữ liệu")  
-        st.write(""" #### 1.1. Giá rung bình bơ hữu cơ mắc hơn giá bơ thường trung bình. Giá trung bình (AveragePrice) bị ảnh hưởng bởi loại bơ (type)
+        st.write(""" #### 1.1. Giá trung bình bơ hữu cơ mắc hơn giá bơ thường trung bình. Giá trung bình (AveragePrice) bị ảnh hưởng bởi loại bơ (type)
         """)
         fig1, ax = plt.subplots(figsize=(20,8))
         sns.boxplot(data=data,x="type",y="AveragePrice")
